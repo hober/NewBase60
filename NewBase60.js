@@ -64,7 +64,7 @@ if (typeof(exports) == 'object') {
 
 // If being run directly as a Node.js program, spit out a random 32-bit
 // number in NewBase60.
-if ((typeof(__filiename) == 'string')
+if ((typeof(__filename) == 'string')
     && (typeof(process) == 'object')
     && (__filename == process.argv[1])) {
 
